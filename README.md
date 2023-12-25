@@ -1,1 +1,1 @@
-Record for personal coding tests
+Record for coding tests
