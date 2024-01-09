@@ -1,0 +1,6 @@
+
+„
+java:S1319"gThe type of "strings" should be an interface such as "List" rather than the implementation "ArrayList".(çœšƒ8Í‚æ¦Ë1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±Ó‹ã8Ï‚æ¦Ë1
+D
+java:S1481-"'Remove this unused "cu" local variable.(òà‹ð8Ïƒæ¦Ë1

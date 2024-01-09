@@ -1,0 +1,11 @@
+
+L
+java:S10666"/Merge this if statement with the enclosing one.(¼Ëá¡8ëè§ÆÎ1
+L
+java:S10667"/Merge this if statement with the enclosing one.(Èëåó8¡ÿ§ÆÎ1
+z
+java:S1488$"^Immediately return this expression instead of assigning it to the temporary variable "answer".(‹’·,8íè§ÆÎ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³¸¡ºÿÿÿÿÿ8ïè§ÆÎ1
+X	java:S125B"<This block of commented-out lines of code should be removed.(¬ Á¤8†˜„ÇÎ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8øá‡ÇÎ1
