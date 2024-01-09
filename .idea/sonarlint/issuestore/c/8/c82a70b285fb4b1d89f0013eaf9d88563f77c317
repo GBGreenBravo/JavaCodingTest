@@ -1,9 +1,0 @@
-
-Q
-java:S10666"/Merge this if statement with the enclosing one.(”‹·ûÿÿÿÿ8Í“äŞÊ1
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤Ïê¢üÿÿÿÿ8¢ìâŞÊ1
-]	java:S125"<This block of commented-out lines of code should be removed.(ˆ­×‘ÿÿÿÿÿ8‰õóŞÊ1
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ïöšüÿÿÿÿ8À”äŞÊ1
-=
-java:S3626*"Remove this redundant jump.( ·Ùøÿÿÿÿ8Á”äŞÊ1

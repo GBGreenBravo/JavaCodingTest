@@ -1,9 +1,0 @@
-
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»¯òÌüÿÿÿÿ8Ô²ÞŒÇ1
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(»¯òÌüÿÿÿÿ8Ö²ÞŒÇ1
-]	java:S125"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ8ç²ÞŒÇ1
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8é²ÞŒÇ1
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ê²ÞŒÇ1

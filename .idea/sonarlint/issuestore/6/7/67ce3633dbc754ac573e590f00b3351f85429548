@@ -1,7 +1,0 @@
-
-y	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨¿¢øüÿÿÿÿ8²Ôè—Ç1
-Q
-java:S1066!"/Merge this if statement with the enclosing one.(íêðâýÿÿÿÿ8¶Ôè—Ç1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³š¸‡úÿÿÿÿ8·Ôè—Ç1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³š¸‡úÿÿÿÿ8¹Ôè—Ç1
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ò‰ÆÞþÿÿÿÿ8ºÔè—Ç1

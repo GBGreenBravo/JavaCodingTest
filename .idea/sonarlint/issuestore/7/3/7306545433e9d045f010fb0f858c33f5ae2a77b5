@@ -1,5 +1,0 @@
-
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿ÕÓ¨ýÿÿÿÿ8Ý­à¾Ç1
-G	java:S106"+Replace this use of System.out by a logger.(“üÌ‚8ä­à¾Ç1
-]	java:S125"<This block of commented-out lines of code should be removed.(êø¹¾ûÿÿÿÿ8ƒ®à¾Ç1
-X	java:S125B"<This block of commented-out lines of code should be removed.(­Éˆä8ƒ®à¾Ç1
