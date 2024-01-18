@@ -2,6 +2,11 @@ package baekjoon.silver;
 
 // 09:30
 
+// int now / int answer로 세팅하고,
+// 1. 현재 index '(' 인 경우 => 무조건 now++
+// 2. 현재 index ')'이고, 이전 index '(' 인 경우 => now--; answer+=now;
+// 3. 현재 index ')'이고, 이전 index ')'인 경우 => now--; answer++;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
