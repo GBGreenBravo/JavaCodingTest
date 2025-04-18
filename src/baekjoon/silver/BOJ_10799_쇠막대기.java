@@ -10,7 +10,7 @@ package baekjoon.silver;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class BOJ_쇠막대기 {
+public class BOJ_10799_쇠막대기 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());

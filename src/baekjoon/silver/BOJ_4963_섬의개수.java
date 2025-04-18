@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class BOJ_섬의개수 {
+public class BOJ_4963_섬의개수 {
     static int[][] map;
 
     public static void main(String[] args) throws IOException {

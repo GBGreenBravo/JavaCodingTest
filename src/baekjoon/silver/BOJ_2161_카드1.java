@@ -5,7 +5,7 @@ package baekjoon.silver;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class BOJ_카드1 {
+public class BOJ_2161_카드1 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();

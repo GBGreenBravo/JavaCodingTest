@@ -10,7 +10,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class BOJ_ATM {
+public class BOJ_11399_ATM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

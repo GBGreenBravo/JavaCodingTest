@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.StringTokenizer;
 
-public class BOJ_경쟁적전염 {
+public class BOJ_18405_경쟁적전염 {
     static int[][] map;
     static boolean[][] gone;
     static ArrayList<int[]> now;

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class BOJ_연구소 {
+public class BOJ_14502_연구소 {
     static ArrayList<Integer[]> map = new ArrayList<>();
     static int result = 0;
 

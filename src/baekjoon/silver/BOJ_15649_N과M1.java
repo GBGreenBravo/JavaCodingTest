@@ -5,7 +5,7 @@ package baekjoon.silver;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class BOJ_N과M1 {
+public class BOJ_15649_N과M1 {
     static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) {

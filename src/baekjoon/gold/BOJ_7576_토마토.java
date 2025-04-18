@@ -18,7 +18,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class BOJ_토마토 {
+class BOJ_7576_토마토 {
     static int m;
     static int n;
     static int[][] box;

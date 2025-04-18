@@ -2,7 +2,7 @@ package baekjoon.silver;
 
 import java.util.Scanner;
 
-public class BOJ_동전0 {
+public class BOJ_11047_동전0 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] s = sc.nextLine().split(" ");

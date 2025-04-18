@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_RGB거리 {
+public class BOJ_1149_RGB거리 {
     static int[][] arr;
     static int[][] result;
     public static void main(String[] args) throws IOException {
