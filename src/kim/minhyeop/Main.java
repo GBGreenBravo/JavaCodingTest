@@ -1,4 +1,4 @@
-package com.minhyeop;
+package kim.minhyeop;
 
 import java.io.BufferedReader;
 import java.io.IOException;
