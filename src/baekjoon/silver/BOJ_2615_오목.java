@@ -25,8 +25,8 @@ public class BOJ_2615_오목 {
 			}
 		}
 		
-		for (int i = 0; i < 19; i++) {
-			for (int j = 0; j < 19; j++) {
+		for (int j = 0; j < 19; j++) {
+			for (int i = 0; i < 19; i++) {
 				if (board[i][j] != 0) {
 					check(i, j);	
 				}
@@ -46,22 +46,11 @@ public class BOJ_2615_오목 {
 		for (int d = 0; d < 4; d++) {
 			int in_a_row = 1;
 			
-			int my = y;
-			int mx = x;
-			
 			int dy = direction_arr[d][0];
 			int dx = direction_arr[d][1];
 			int ny = y + dy;
 			int nx = x + dx;
 			while (!oob(ny, nx) && board[ny][nx] == board[y][x]) {
-				if (nx < mx) {
-					mx = nx;
-					my = ny;
-				}
-				if (nx == mx && ny < my) {
-					mx = nx;
-					my = ny;
-				}
 				ny += dy;
 				nx += dx;
 				in_a_row++;
@@ -72,14 +61,6 @@ public class BOJ_2615_오목 {
 			ny = y + dy;
 			nx = x + dx;
 			while (!oob(ny, nx) && board[ny][nx] == board[y][x]) {
-				if (nx < mx) {
-					mx = nx;
-					my = ny;
-				}
-				if (nx == mx && ny < my) {
-					mx = nx;
-					my = ny;
-				}
 				ny += dy;
 				nx += dx;
 				in_a_row++;
@@ -88,7 +69,7 @@ public class BOJ_2615_오목 {
 			if (in_a_row == 5) {
 				result = board[y][x];
 				System.out.println(result);
-				System.out.println((my + 1) + " " + (mx + 1));
+				System.out.println((y + 1) + " " + (x + 1));
 				return;
 			}
 		}
