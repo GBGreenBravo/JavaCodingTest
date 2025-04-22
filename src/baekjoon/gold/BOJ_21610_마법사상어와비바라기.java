@@ -62,16 +62,18 @@ public class BOJ_21610_마법사상어와비바라기 {
 			this.x = x;
 		}
 		void moveAndRain(int d, int s) {
-			this.y += DY8[d] * s;
-			while ((this.y < 0) || (N <= this.y)) {
-				if (this.y < 0) this.y += N;
-				else this.y -= N;
-			}
-			this.x += DX8[d] * s;
-			while ((this.x < 0) || (N <= this.x)) {
-				if (this.x < 0) this.x += N;
-				else this.x -= N;
-			}
+//			this.y += DY8[d] * s;
+//			while ((this.y < 0) || (N <= this.y)) {
+//				if (this.y < 0) this.y += N;
+//				else this.y -= N;
+//			}
+			this.y = Math.floorMod(this.y + (DY8[d] * s), N);
+//			this.x += DX8[d] * s;
+//			while ((this.x < 0) || (N <= this.x)) {
+//				if (this.x < 0) this.x += N;
+//				else this.x -= N;
+//			}
+			this.x = Math.floorMod(this.x + (DX8[d] * s), N);
 			
 			area[this.y][this.x] += 1; 
 		}
