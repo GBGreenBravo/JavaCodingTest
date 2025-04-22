@@ -9,7 +9,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Set;
 import java.util.StringTokenizer;
+import java.util.stream.Collectors;
 
 public class BOJ_21610_마법사상어와비바라기 {
 	
@@ -97,10 +99,13 @@ public class BOJ_21610_마법사상어와비바라기 {
 			node.copyBug();
 		}
 		
-		HashSet<Integer> cloud_set = new HashSet<>();
-		for (Node node: clouds) {
-			cloud_set.add(node.y * N + node.x);
-		}
+//		HashSet<Integer> cloud_set = new HashSet<>();
+//		for (Node node: clouds) {
+//			cloud_set.add(node.y * N + node.x);
+//		}
+		Set<Integer> cloud_set = clouds.stream()
+				.map(node -> node.y * N + node.x)
+				.collect(Collectors.toSet());
 		
 		ArrayList<Node> next_clouds = new ArrayList<>();
 		for (int i = 0; i < N; i++) {
