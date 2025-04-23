@@ -1,4 +1,4 @@
-package kim.minhyeop;
+package baekjoon.gold;
 
 // 20250423
 // 52:13
