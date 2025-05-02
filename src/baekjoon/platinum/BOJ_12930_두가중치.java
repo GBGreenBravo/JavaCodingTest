@@ -1,5 +1,9 @@
 package baekjoon.platinum;
 
+// 20250502
+// 32:27
+// 1 / 1
+
 import java.util.*;
 import java.io.*;
 
