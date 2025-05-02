@@ -38,7 +38,7 @@ public class BOJ_12930_두가중치 {
   }
   
   private static int dijkstra() {
-    int[][] visited = new int[N][(N + 1) * 9 + 1];
+    int[][] visited = new int[N][N * 9 + 1];
     int v_l = (N + 1) * 9 + 1;
     
     Queue<int[]> queue = new PriorityQueue<>((o1, o2) -> Integer.compare(o1[1] * o1[2], o2[1] * o2[2]));
